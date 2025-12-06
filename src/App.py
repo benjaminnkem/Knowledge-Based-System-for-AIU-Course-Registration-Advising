@@ -33,7 +33,7 @@ with st.sidebar:
 tab1, tab2 = st.tabs(["Student Advisor", "Knowledge Base Editor"])
 
 with tab1:
-    st.title("AIU Course Registration Advisor")
+    st.title("Intelligent Course Advising System")
 
     # Load courses KB for student view
     courses = list_all_courses()
